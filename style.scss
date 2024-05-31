@@ -1,0 +1,186 @@
+@import 'adaptive';
+
+*{
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    padding: 0 20px;
+
+    & .header__container{
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        & .header__logo{
+            padding: 24px 0;
+        }
+
+        .header__container--links{
+            width: 100%;
+            max-width: 285px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 200px;
+
+            & .header__links{
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16.41px;
+                letter-spacing: 0.02em;
+                text-align: left;
+                color: #212121;
+                padding: 24px 0 20px 0;
+                border-bottom: 4px solid transparent;
+                transition: color 0.3s ease, border-color 0.3s ease;
+
+                &:hover{
+                    color: #2196F3;
+                    border-bottom-color: #2196F3;
+                    border-radius: 2px;
+                }
+            }
+        }
+
+        .header__container--social{
+            display: flex;
+
+            & .header__container--social--content{
+
+                & .header__social--gmail{
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16.41px;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    color: #757575;
+                    margin-right: 30px;
+                    
+                    &:hover path{
+                        color: #2196F3; 
+                        fill: #2196F3;  
+                    }
+
+                    &:hover{
+                        color: #2196F3;  
+                    }
+
+                    .header__social--svg{
+                        margin-right: 10px;
+                    }
+                }
+
+                .header__social--phone{
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16.41px;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    color: #757575;
+                    display: flex;
+                    align-items: center;
+
+                    &:hover path{
+                        color: #2196F3; 
+                        fill: #2196F3;  
+                    }
+
+                    &:hover{
+                        color: #2196F3;  
+                    }
+                    
+                    .header__social--svg{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+main{
+
+    & .aboutUS{
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+        & .aboutUS__container{
+            width: 100%;
+            max-width: 270px;
+            margin: 0 auto;
+
+            & .aboutUS__svg{
+                background-color: #F5F4FA;
+                display: flex;
+                justify-content: center;
+
+                & .svg{
+                    padding: 25px 0;
+                }
+            }
+
+            .aboutUS__title{
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 16.41px;
+                letter-spacing: 0.03em;
+                text-align: left;
+                color: #212121;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+
+            .aboutUS__text{
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.03em;
+                text-align: left;
+                color: #757575;
+            }
+        }
+    }
+    .occupations{
+        &-title{
+            display: flex;
+            justify-content: center;
+            font-size: large;
+            font-family: Roboto;
+            margin-top: 100px;
+        }
+        &-images{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 10px;
+            max-width: 1170px;
+            margin-left: 375px;
+        
+
+        }
+        &-image{
+          
+        }
+     
+    }   
+}

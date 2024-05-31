@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .header__container--links {
+    margin-right: 0 !important;
+  }
+  .header__container--social {
+    flex-direction: column;
+  }
+  .header__container--social .header__container--social--content .header__social--gmail {
+    margin-right: 0 !important;
+  }
+  main .aboutUS {
+    padding: 0 5px;
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: 1fr 1fr !important;
+    gap: 30px;
+  }
+  main .aboutUS .aboutUS__container {
+    max-width: 354px !important;
+  }
+  main .occupations {
+    display: none;
+  }
+  main .occupations-title {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-family: Roboto;
+    margin-top: 100px;
+  }
+  main .occupations-images {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 1170px;
+    margin-left: 375px;
+  }
+}
