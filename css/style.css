@@ -1,4 +1,4 @@
-@media (max-width: 1100px) {
+@media (max-width: 768px) {
   .header__container--links {
     margin-right: 0 !important;
   }
@@ -16,6 +16,24 @@
   }
   main .aboutUS .aboutUS__container {
     max-width: 354px !important;
+  }
+  main .occupations {
+    display: none;
+  }
+  main .occupations-title {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-family: Roboto;
+    margin-top: 100px;
+  }
+  main .occupations-images {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 1170px;
+    margin-left: 375px;
   }
 }
 * {
@@ -158,13 +176,165 @@ main .occupations-title {
   justify-content: center;
   font-size: large;
   font-family: Roboto;
+  margin-bottom: 50px;
   margin-top: 100px;
 }
 main .occupations-images {
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  margin-top: 10px;
   max-width: 1170px;
-  margin-left: 375px;
+  margin-left: 345px;
+}
+main .team {
+  background-color: rgb(245, 244, 250);
+  width: 100vw;
+  height: 708px;
+  margin-top: 50px;
+}
+main .team-card {
+  background-color: white;
+  width: 270px;
+  height: 428px;
+  margin-top: 210px;
+}
+main .team-cards {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1170px;
+  margin-left: 345px;
+}
+main .team-title {
+  font-size: xx-large;
+  font-family: Roboto;
+  position: absolute;
+  left: 840px;
+  top: 1550px;
+}
+main .team-photo {
+  width: 270px;
+  height: 260px;
+}
+main .team-text {
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+main .team-job {
+  font-family: Roboto;
+  color: #757575;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+main .team-socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+main .clients-title {
+  font-family: Roboto;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+main .clients-img {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 5px;
+}
+main .clients-imgs {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1170px;
+  margin-left: 345px;
+  margin-top: 60px;
+}
+main .clients-photo {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+footer {
+  width: 100vw;
+  height: 252px;
+  background-color: #2F303A;
+  margin-top: 100px;
+  position: relative;
+}
+footer .info-logo {
+  position: absolute;
+  left: 355px;
+  top: 50px;
+}
+footer .info-text {
+  position: absolute;
+  top: 100px;
+  left: 355px;
+}
+footer .info-text1 {
+  font-family: Roboto;
+  color: white;
+  margin-bottom: 10px;
+}
+footer .info-text2 {
+  font-family: Roboto;
+  color: gray;
+  margin-bottom: 10px;
+}
+footer .soc-title {
+  color: white;
+  font-family: Roboto;
+  position: absolute;
+  left: 650px;
+  top: 50px;
+}
+footer .soc-imgs {
+  position: absolute;
+  left: 650px;
+  top: 90px;
+}
+footer .email-title {
+  color: white;
+  font-family: Roboto;
+  position: absolute;
+  left: 940px;
+  top: 50px;
+}
+footer .email-form {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  background-color: #2F303A;
+  position: absolute;
+  left: 940px;
+  top: 90px;
+}
+footer .email ::-moz-placeholder {
+  font-family: Roboto;
+  padding: 20px;
+}
+footer .email ::placeholder {
+  font-family: Roboto;
+  padding: 20px;
+}
+footer .email-button {
+  background-color: #2196F3;
+  font-family: Roboto;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  position: absolute;
+  left: 1310px;
+  top: 90px;
+  line-height: 50px;
+}
+footer .email-photo {
+  position: absolute;
+  bottom: 13px;
+  right: 30px;
 }
