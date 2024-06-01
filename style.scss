@@ -191,7 +191,10 @@ main{
         }
     }
     .occupations{
-       
+        &-container{
+            max-width: 1170px;
+            margin: 0 auto;
+        }
         &-title{
             display: flex;
             justify-content: center;
@@ -203,8 +206,7 @@ main{
         &-images{
             display: flex;
             justify-content: space-around;
-            max-width: 1170px;
-            margin-left: 345px;
+            
            
             
         
@@ -214,33 +216,32 @@ main{
      
     }   
     .team{
-       background-color: rgba(245, 244, 250, 1);
-        width: 100vw;
-        height: 708px;
-        margin-top: 100px;
+        background-color: rgba(245, 244, 250, 1);
+        width: 100%;
+        &-container{
+            max-width: 1170px;
+            margin: 0 auto;
+            margin-top: 100px;
+            height: 708px;
+        }
+        &-title{
+            font-size: 36px;
+            font-family: Roboto;
+            display: flex;
+            justify-content: center;
+           
+        }
         &-card{                                    
             background-color: white;
             width: 270px;
             height: 428px;
-            margin-top: 210px;
-
+            margin-top: 150px;
             
         }
         &-cards{
             display: flex;
-            justify-content: space-around; 
-            max-width: 1170px;
-            margin-left: 345px;
-            
-        }
-        &-title{
-            font-size: xx-large;
-            font-family: Roboto;
-            display: flex;
-            justify-content: center;
-            
-            
-        }
+            justify-content: space-around;            
+            }
         &-photo{
             width: 270px;
             height: 260px;
@@ -267,12 +268,21 @@ main{
         }
     }
     .clients{
+        
+        &-container{
+            max-width: 1170px;
+            margin: 0 auto;
+            margin-top: 100px;
+            width: 100%;
+
+        }
+
         &-title{
             font-family: Roboto;
             font-size: xx-large;
             display: flex;
             justify-content: center;
-            margin-top: 100px;
+            
         }
         &-img{
             width:170px;
@@ -286,7 +296,6 @@ main{
             display: flex;
             justify-content: space-around;
             max-width: 1170px;
-            margin-left: 345px;
             margin-top: 60px;
            
 
@@ -297,13 +306,21 @@ main{
         }
     }
 }
+
 footer{
     width: 100vw;
     height: 252px;
     background-color: #2F303A;
     margin-top: 100px;
     position: relative;
+    width: 100%;
     
+    .container{
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
     .info{
         &-logo{
             position: absolute;
@@ -382,4 +399,5 @@ footer{
            right: 30px;
         }
     }
-}
+       }
+    
