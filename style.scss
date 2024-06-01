@@ -113,7 +113,36 @@ header{
 }
 
 main{
+    & .Photo{
+        &-img{
+            width: 100vw;
+        }
+        &-title{
+            color: white;
+            font-family: Roboto;
+            position: absolute;
+            left: 770px;
+            bottom: 490px;
+            text-align: center;
+            font-size: xx-large;
 
+            
+        }
+        &-button{
+            width: 216px;
+            height: 50px;
+            font-family: Roboto;
+            background-color: rgba(33, 150, 243, 1);
+            color: white;
+            border-radius: 4px;
+            position: absolute;
+            left: 850px;
+            bottom: 380px;
+
+           
+        }
+    }
+   
     & .aboutUS{
         width: 100%;
         max-width: 1170px;
@@ -121,6 +150,7 @@ main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+        margin-top: 50px;
 
         & .aboutUS__container{
             width: 100%;
@@ -183,17 +213,11 @@ main{
       
      
     }   
-    .Photo{
-        &-img{
-         
-            
-        }
-    }
     .team{
        background-color: rgba(245, 244, 250, 1);
         width: 100vw;
         height: 708px;
-        margin-top: 50px;
+        margin-top: 100px;
         &-card{                                    
             background-color: white;
             width: 270px;
@@ -212,13 +236,15 @@ main{
         &-title{
             font-size: xx-large;
             font-family: Roboto;
-            position: absolute;
-            left: 840px;
-            top: 1550px;
+            display: flex;
+            justify-content: center;
+            
+            
         }
         &-photo{
             width: 270px;
             height: 260px;
+            
         }
         &-text{
             font-family: Roboto;
@@ -348,7 +374,7 @@ footer{
             left: 1310px;
             top: 90px;
             line-height: 50px;
-           
+
         }
         &-photo{
            position: absolute;
