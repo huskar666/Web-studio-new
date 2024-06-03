@@ -7,8 +7,12 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    
 }
-
+svg{
+    max-width: 100%;
+    height: auto;
+}
 header{
     padding: 0 20px;
 
@@ -306,7 +310,21 @@ main{
             margin-top: 20px;
             
         }
+
+        &-social:hover{
+            color: #2196F3;
+            
+            
+        }
+        &-social{
+           color: white; 
+           transition: all .8s ease; 
+           
+        }
+
+
     }
+
     .clients{
         
         &-container{
@@ -332,6 +350,9 @@ main{
            
             
         }
+        &-img:hover{
+            color: #2196F3;
+        }
         &-imgs{
             display: flex;
             justify-content: space-around;
@@ -340,10 +361,36 @@ main{
            
 
         }
-        &-photo{
-           margin-left: 35px;
-           margin-top: 20px;
+        &-photo1{
+           margin-left: 65px;
+           margin-top: 25px;
+           
         }
+        &-photo1:hover{
+            margin-left: 65px;
+            margin-top: 25px;
+            color: #2196F3;
+         }
+        &-photo2{
+            margin-left: 65px;
+            margin-top: 20px;
+         }
+         &-photo3{
+            margin-left: 65px;
+            margin-top: 25px;
+         }
+          &-photo4{
+            margin-left: 65px;
+           margin-top: 25px;
+        } &-photo5{
+            margin-left: 50px;
+            margin-top: 25px;
+         }
+         &-photo6{
+            margin-left: 40px;
+            margin-top: 25px;
+         }
+
     }
 }
        .footer{

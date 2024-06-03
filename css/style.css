@@ -226,6 +226,11 @@
   scroll-behavior: smooth;
 }
 
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
   padding: 0 20px;
 }
@@ -473,6 +478,13 @@ main .team-socials {
   justify-content: center;
   margin-top: 20px;
 }
+main .team-social:hover {
+  color: #2196F3;
+}
+main .team-social {
+  color: white;
+  transition: all 0.8s ease;
+}
 main .clients-container {
   max-width: 1170px;
   margin: 0 auto;
@@ -491,15 +503,43 @@ main .clients-img {
   border: 1px solid #AFB1B8;
   border-radius: 5px;
 }
+main .clients-img:hover {
+  color: #2196F3;
+}
 main .clients-imgs {
   display: flex;
   justify-content: space-around;
   max-width: 1170px;
   margin-top: 60px;
 }
-main .clients-photo {
-  margin-left: 35px;
+main .clients-photo1 {
+  margin-left: 65px;
+  margin-top: 25px;
+}
+main .clients-photo1:hover {
+  margin-left: 65px;
+  margin-top: 25px;
+  color: #2196F3;
+}
+main .clients-photo2 {
+  margin-left: 65px;
   margin-top: 20px;
+}
+main .clients-photo3 {
+  margin-left: 65px;
+  margin-top: 25px;
+}
+main .clients-photo4 {
+  margin-left: 65px;
+  margin-top: 25px;
+}
+main .clients-photo5 {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+main .clients-photo6 {
+  margin-left: 40px;
+  margin-top: 25px;
 }
 
 .footer {
