@@ -78,6 +78,7 @@
     grid-template-rows: 1fr 1fr !important;
     gap: 30px;
     max-width: 738px;
+    padding-bottom: 100px;
   }
   main .team-card {
     width: 354px;
