@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .header__container--links {
     margin-right: 0 !important;
   }
@@ -72,14 +72,20 @@
   main .occupations {
     display: none;
   }
-  main .team {
+  main .team-container {
     padding: 0 5px;
     grid-template-columns: 1fr 1fr !important;
     grid-template-rows: 1fr 1fr !important;
     gap: 30px;
+    max-width: 738px;
   }
   main .team-card {
-    max-width: 354px;
+    width: 354px;
+    height: 536px;
+  }
+  main .team-photo {
+    width: 354px;
+    height: 374px;
   }
   main .Photo-img {
     width: 768px;

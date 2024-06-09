@@ -1,4 +1,4 @@
-@media (max-width:768px){
+@media (max-width:1100px){
     
     .header__container--links{
         margin-right: 0!important;
@@ -90,13 +90,22 @@
      }
          
      & .team{
-        padding: 0 5px;
-        grid-template-columns: 1fr 1fr!important;
-        grid-template-rows: 1fr 1fr!important;
-        gap: 30px;
+        
 
+        &-container{
+            padding: 0 5px;
+            grid-template-columns: 1fr 1fr!important;
+            grid-template-rows: 1fr 1fr!important;
+            gap: 30px;       
+            max-width: 738px;
+        }
         &-card{
-            max-width: 354px                    ;
+            width: 354px;
+            height: 536px;
+        }
+        &-photo{
+            width: 354px;
+            height: 374px;
         }
     }
 

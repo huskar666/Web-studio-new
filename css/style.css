@@ -72,14 +72,11 @@
   main .occupations {
     display: none;
   }
-  main .team {
+  main .team-container {
     padding: 0 5px;
     grid-template-columns: 1fr 1fr !important;
     grid-template-rows: 1fr 1fr !important;
     gap: 30px;
-  }
-  main .team-card {
-    max-width: 354px;
   }
   main .Photo-img {
     width: 768px;
