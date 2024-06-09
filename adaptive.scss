@@ -29,7 +29,7 @@
             }
         }
         & .banner{
-            background: url('./img/banner.png') no-repeat center center;
+            background: url('../img/banner2.png') no-repeat center center;
             position: relative;
             background-size: cover;
             display: flex;
@@ -95,8 +95,8 @@
         grid-template-rows: 1fr 1fr!important;
         gap: 30px;
 
-        & .team-container{
-            max-width: 354px!important;
+        &-card{
+            max-width: 354px                    ;
         }
     }
 
