@@ -115,6 +115,43 @@
   main .clients-title {
     font-size: 28px;
   }
+  main .clients-container {
+    max-width: 738px;
+    padding: 0 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 100px;
+    gap: 20px;
+  }
+  main .clients-img {
+    width: 226px;
+    height: 92px;
+  }
+  main .clients-photo1 {
+    margin-left: 95px;
+    margin-top: 25px;
+  }
+  main .clients-photo2 {
+    margin-left: 95px;
+    margin-top: 20px;
+  }
+  main .clients-photo3 {
+    margin-left: 90px;
+    margin-top: 25px;
+  }
+  main .clients-photo4 {
+    margin-left: 95px;
+    margin-top: 25px;
+  }
+  main .clients-photo5 {
+    margin-left: 80px;
+    margin-top: 25px;
+  }
+  main .clients-photo6 {
+    margin-left: 70px;
+    margin-top: 25px;
+  }
   .footer {
     background-color: #2F303A;
     margin-top: 100px;

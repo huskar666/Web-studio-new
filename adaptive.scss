@@ -142,9 +142,49 @@
          }
 
         & .clients{
+           
             &-title{
                 font-size: 28px;
             }
+            &-container{
+                max-width: 738px;
+                padding: 0 5px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr ;
+                grid-template-rows: 1fr 1fr;
+                padding-bottom: 100px;
+                gap: 20px;
+                
+            }
+            &-img{
+                width: 226px;
+                height: 92px;
+            }
+            &-photo1{
+                margin-left: 95px;
+                margin-top: 25px;
+                
+             }
+             &-photo2{
+                margin-left: 95px;
+                 margin-top: 20px;
+              }
+              &-photo3{
+                 margin-left: 90px;
+                 margin-top: 25px;
+              }
+               &-photo4{
+                 margin-left: 95px;
+                margin-top: 25px;
+             } &-photo5{
+                 margin-left: 80px;
+                 margin-top: 25px;
+              }
+              &-photo6{
+                 margin-left: 70px;
+                 margin-top: 25px;
+              }
+     
         }
     }
     .footer{
