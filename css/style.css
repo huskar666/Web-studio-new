@@ -160,11 +160,11 @@
     width: 100%;
     max-width: 738px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
     padding: 60px;
+  }
+  .footer .footer__container--therd {
+    margin-top: 75px;
   }
   .footer .footer__logo {
     margin-bottom: 20px;
@@ -173,11 +173,13 @@
     font-family: Roboto;
     text-decoration: none;
     color: white;
+    font-size: 14px;
   }
   .footer .footer__gmail {
     font-family: Roboto;
     text-decoration: none;
     color: gray;
+    font-size: 14px;
   }
   .footer .footer__phone {
     font-family: Roboto;
@@ -188,19 +190,17 @@
     font-family: Roboto;
     color: white;
     margin-bottom: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
   }
   .footer .footer__container--therd--title {
     font-family: Roboto;
     color: white;
+    font-size: 14px;
   }
   .footer .footer__container--therd--input {
-    width: 358px;
-    height: 50px;
-    border-radius: 4px;
-    border: 1px solid gray;
-    background-color: #2F303A;
-    margin-top: 20px;
-    margin-right: 5px;
+    width: 450px;
   }
   .footer ::-moz-placeholder {
     font-family: Roboto;
@@ -211,13 +211,11 @@
     padding: 20px;
   }
   .footer .footer__container--therd--button {
-    background-color: #2196F3;
-    font-family: Roboto;
-    color: white;
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    line-height: 50px;
+    margin-top: 20px;
+  }
+  .footer .footer__container--therd--content {
+    display: flex;
+    justify-content: center;
   }
 }
 * {
