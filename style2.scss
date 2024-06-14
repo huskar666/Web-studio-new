@@ -38,6 +38,7 @@ header{
                 padding: 24px 0 20px 0;
                 border-bottom: 4px solid transparent;
                 transition: color 0.3s ease, border-color 0.3s ease;
+                text-decoration: none;
 
                 &:hover{
                     color: #2196F3;
@@ -49,8 +50,10 @@ header{
 
         .header__container--social{
             display: flex;
+            
 
             & .header__container--social--content{
+                
 
                 & .header__social--gmail{
                     font-family: Roboto;
@@ -61,6 +64,7 @@ header{
                     text-align: left;
                     color: #757575;
                     margin-right: 30px;
+                    text-decoration: none;
                     
                     &:hover path{
                         color: #2196F3; 
@@ -86,6 +90,7 @@ header{
                     color: #757575;
                     display: flex;
                     align-items: center;
+                    text-decoration: none;
 
                     &:hover path{
                         color: #2196F3; 

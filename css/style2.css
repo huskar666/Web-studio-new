@@ -156,6 +156,7 @@ header .header__container .header__container--links .header__links {
   padding: 24px 0 20px 0;
   border-bottom: 4px solid transparent;
   transition: color 0.3s ease, border-color 0.3s ease;
+  text-decoration: none;
 }
 header .header__container .header__container--links .header__links:hover {
   color: #2196F3;
@@ -174,6 +175,7 @@ header .header__container .header__container--social .header__container--social-
   text-align: left;
   color: #757575;
   margin-right: 30px;
+  text-decoration: none;
 }
 header .header__container .header__container--social .header__container--social--content .header__social--gmail:hover path {
   color: #2196F3;
@@ -195,6 +197,7 @@ header .header__container .header__container--social .header__container--social-
   color: #757575;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 header .header__container .header__container--social .header__container--social--content .header__social--phone:hover path {
   color: #2196F3;
