@@ -56,8 +56,26 @@ table {
   .cards .cards__container {
     max-width: 354px !important;
   }
+  .header__container--links {
+    margin-right: 0 !important;
+  }
+  .header__container--social {
+    flex-direction: column;
+  }
+  .header__container--social .header__container--social--content .header__social--gmail {
+    margin-right: 0 !important;
+  }
 }
 @media (max-width: 725px) {
+  .header__container--links {
+    margin-right: 0 !important;
+  }
+  .header__container--social {
+    flex-direction: column;
+  }
+  .header__container--social .header__container--social--content .header__social--gmail {
+    margin-right: 0 !important;
+  }
   .cards {
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
@@ -104,6 +122,91 @@ table {
     padding-top: 60px;
   }
 }
+header {
+  padding: 0 20px;
+}
+header .header__container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header__container .header__logo {
+  padding: 24px 0;
+}
+header .header__container .header__container--links {
+  width: 100%;
+  max-width: 285px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+}
+header .header__container .header__container--links .header__links {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #212121;
+  padding: 24px 0 20px 0;
+  border-bottom: 4px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+header .header__container .header__container--links .header__links:hover {
+  color: #2196F3;
+  border-bottom-color: #2196F3;
+  border-radius: 2px;
+}
+header .header__container .header__container--social {
+  display: flex;
+}
+header .header__container .header__container--social .header__container--social--content .header__social--gmail {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #757575;
+  margin-right: 30px;
+}
+header .header__container .header__container--social .header__container--social--content .header__social--gmail:hover path {
+  color: #2196F3;
+  fill: #2196F3;
+}
+header .header__container .header__container--social .header__container--social--content .header__social--gmail:hover {
+  color: #2196F3;
+}
+header .header__container .header__container--social .header__container--social--content .header__social--gmail .header__social--svg {
+  margin-right: 10px;
+}
+header .header__container .header__container--social .header__container--social--content .header__social--phone {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #757575;
+  display: flex;
+  align-items: center;
+}
+header .header__container .header__container--social .header__container--social--content .header__social--phone:hover path {
+  color: #2196F3;
+  fill: #2196F3;
+}
+header .header__container .header__container--social .header__container--social--content .header__social--phone:hover {
+  color: #2196F3;
+}
+header .header__container .header__container--social .header__container--social--content .header__social--phone .header__social--svg {
+  margin-right: 10px;
+}
+
 .portfolio {
   width: 100%;
   max-width: 575px;
@@ -445,7 +548,8 @@ footer .footer__container {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 footer .footer__logo {
   margin-bottom: 20px;

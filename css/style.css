@@ -197,10 +197,15 @@
   .footer .footer__container--therd--title {
     font-family: Roboto;
     color: white;
+    display: flex;
+    justify-content: center;
     font-size: 14px;
   }
   .footer .footer__container--therd--input {
     width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
   }
   .footer ::-moz-placeholder {
     font-family: Roboto;
@@ -212,8 +217,6 @@
   }
   .footer .footer__container--therd--button {
     margin-top: 20px;
-  }
-  .footer .footer__container--therd--content {
     display: flex;
     justify-content: center;
   }
@@ -540,7 +543,8 @@ main .clients-photo6 {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer .footer__logo {
   margin-bottom: 20px;
