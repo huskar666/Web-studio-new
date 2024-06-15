@@ -261,3 +261,52 @@
    
        }
 }
+@media (max-width:767px){
+    main{
+        & .banner{
+            background: url('../img/banner3.png') no-repeat center center;
+            position: relative;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        & .aboutUS{
+            padding: 0 5px;
+            grid-template-columns: 1fr !important;
+            grid-template-rows: 1fr 1fr 1fr 1fr!important;
+            gap: 30px;
+            & .aboutUS__container{
+                max-width: 450px!important;
+                max-height: 226px;
+            }
+        }
+        & .aboutUS__title{
+           display: flex;
+           justify-content: center;
+        }
+        & .team{
+            &-container{
+                padding: 0 5px;
+                grid-template-columns: 1fr !important;
+                grid-template-rows: 1fr 1fr 1fr 1fr!important;
+                gap: 30px;       
+                max-width: 450px;
+                padding-bottom: 100px;
+            }
+            &-card{
+                width: 450px;
+                height: 622px;
+            }
+            &-photo{
+                width: 450px;
+                height: 460px;
+            }
+        }
+    }
+}
+
+
+
+    
