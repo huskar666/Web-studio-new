@@ -161,7 +161,8 @@
     max-width: 738px;
     margin: 0 auto;
     flex-direction: row;
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .footer .footer__container--therd {
     margin-top: 75px;
@@ -219,6 +220,87 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  main .banner {
+    background: url("../img/banner3.png") no-repeat center center;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  main .aboutUS {
+    padding: 0 5px;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr 1fr 1fr !important;
+    gap: 30px;
+  }
+  main .aboutUS .aboutUS__container {
+    max-width: 450px !important;
+    max-height: 226px;
+  }
+  main .aboutUS__title {
+    display: flex;
+    justify-content: center;
+  }
+  main .team-container {
+    padding: 0 5px;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr 1fr 1fr !important;
+    gap: 30px;
+    max-width: 450px;
+    padding-bottom: 100px;
+  }
+  main .team-card {
+    width: 450px;
+    height: 622px;
+  }
+  main .team-photo {
+    width: 450px;
+    height: 460px;
+  }
+  main .clients-title {
+    font-size: 28px;
+  }
+  main .clients-container {
+    max-width: 450px;
+    padding: 0 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-bottom: 100px;
+    gap: 20px;
+  }
+  main .clients-img {
+    width: 210px;
+    height: 92px;
+  }
+  main .clients-photo1 {
+    margin-left: 89px;
+    margin-top: 25px;
+  }
+  main .clients-photo2 {
+    margin-left: 89px;
+    margin-top: 20px;
+  }
+  main .clients-photo3 {
+    margin-left: 80px;
+    margin-top: 25px;
+  }
+  main .clients-photo4 {
+    margin-left: 89px;
+    margin-top: 25px;
+  }
+  main .clients-photo5 {
+    margin-left: 64px;
+    margin-top: 25px;
+  }
+  main .clients-photo6 {
+    margin-left: 54px;
+    margin-top: 25px;
   }
 }
 * {
@@ -542,7 +624,6 @@ main .clients-photo6 {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   padding-top: 60px;
   padding-bottom: 60px;
 }
