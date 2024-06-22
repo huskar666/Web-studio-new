@@ -655,11 +655,13 @@ header .header__container .header__container--social .header__container--social-
   font-family: Roboto;
   text-decoration: none;
   color: white;
+  padding-bottom: 8px;
 }
 .footer .footer__gmail {
   font-family: Roboto;
   text-decoration: none;
   color: gray;
+  padding-bottom: 8px;
 }
 .footer .footer__phone {
   font-family: Roboto;

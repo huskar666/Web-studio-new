@@ -165,12 +165,14 @@
     text-decoration: none;
     color: white;
     font-size: 14px;
+    padding-bottom: 8px;
   }
   .footer .footer__gmail {
     font-family: Roboto;
     text-decoration: none;
     color: gray;
     font-size: 14px;
+    padding-bottom: 8px;
   }
   .footer .footer__container--1and2 {
     display: flex;
