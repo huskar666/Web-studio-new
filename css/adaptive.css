@@ -1,4 +1,4 @@
-@media (max-width: 1100px) {
+@media (max-width: 1128px) {
   .header__container--links {
     margin-right: 0 !important;
   }
@@ -9,7 +9,6 @@
     margin-right: 0 !important;
   }
   main .aboutUS {
-    padding: 0 5px;
     grid-template-columns: 1fr 1fr !important;
     grid-template-rows: 1fr 1fr !important;
     gap: 30px;
@@ -157,7 +156,9 @@
     margin-top: 100px;
   }
   .footer .footer__container {
-    max-width: 738px;
+    max-width: 603px;
+    display: flex;
+    flex-direction: column;
   }
   .footer .footer__adress {
     font-family: Roboto;
@@ -170,6 +171,11 @@
     text-decoration: none;
     color: gray;
     font-size: 14px;
+  }
+  .footer .footer__container--1and2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
   }
   .footer .footer__phone {
     font-family: Roboto;
@@ -207,8 +213,17 @@
   }
   .footer .footer__container--therd--button {
     margin-top: 20px;
+  }
+  .footer .footer__container--therd {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+  }
+  .footer .footer__container--therd--content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
 @media (max-width: 767px) {
@@ -222,7 +237,6 @@
     text-align: center;
   }
   main .aboutUS {
-    padding: 0 5px;
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr 1fr 1fr !important;
     gap: 30px;
@@ -290,5 +304,19 @@
   main .clients-photo6 {
     margin-left: 54px;
     margin-top: 25px;
+  }
+  footer .footer__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+  }
+  footer .footer__container--1and2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  footer .footer__container--second {
+    padding-top: 60px;
   }
 }
