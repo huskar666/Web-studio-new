@@ -476,7 +476,7 @@ header{
         }
     }
 }
- footer{
+.footer{
     background-color: #2F303A;
     margin-top: 100px;
     
@@ -486,11 +486,18 @@ header{
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        flex-direction: row;
         padding-top: 60px;
-            padding-bottom: 60px;
-            
+        padding-bottom: 60px;
         
+        
+    }
+    
+    & .footer__container--1and2{
+        display: flex;
+        justify-content: space-between;
+        max-width: 507px;
+        width: 100%;
+        margin: 0 auto;
     }
     & .footer__logo{
         margin-bottom: 20px;
@@ -504,8 +511,6 @@ header{
         font-family: Roboto;
         text-decoration: none;
         color: gray;
-        
-        
     }
     
     & .footer__phone{
@@ -546,4 +551,4 @@ header{
     line-height: 50px;
 }
 
-   }
+}

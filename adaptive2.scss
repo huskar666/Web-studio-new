@@ -22,6 +22,79 @@
         }
 
     }
+    .footer{
+        background-color: #2F303A;
+        margin-top: 100px;
+        
+        & .footer__container{
+            max-width: 603px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        & .footer__adress{
+            font-family: Roboto;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+        & .footer__gmail{
+            font-family: Roboto;
+            text-decoration: none;
+            color: gray;
+            font-size: 14px;
+        }
+        & .footer__container--1and2{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        & .footer__phone{
+            font-family: Roboto;
+            text-decoration: none;
+            color: gray;
+        }
+        & .footer__container--second--title{
+            font-family: Roboto;
+            color: white;
+            margin-bottom: 20px;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+        }
+        & .footer__container--therd--title{
+            font-family: Roboto;
+            color: white;
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+        & .footer__container--therd--input{
+            width: 450px;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        ::placeholder{
+            font-family: Roboto;
+            padding: 20px;
+    }
+    & .footer__container--therd--button{
+        margin-top: 20px;
+    }
+    & .footer__container--therd{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       padding-top: 60px;
+    }
+    & .footer__container--therd--content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+       }  
+
 }
 
 
@@ -41,7 +114,8 @@
             }
         }
 
-    }.cards{
+    }
+    .cards{
         grid-template-columns: 1fr !important;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr!important;
      
@@ -49,40 +123,57 @@
             max-width: 450px!important;
 
             & .cards__img--1{
-                background-image: url(./img-page2/adapive-img/portfolio-adaptive-1.png)!important;
+                background-image: url(../img-page2/adapive-img/portfolio-adaptive-1.png)!important;
             }
             
             & .cards__img--2{
-                background-image: url(./img-page2/adapive-img/portfolio-adaptive-2.png)!important;
+                background-image: url(../img-page2/adapive-img/portfolio-adaptive-2.png)!important;
             }
 
             & .cards__img--3{
-                background-image: url(./img-page2/adapive-img/portfolio-adaptive-3.png)!important;
+                background-image: url(../img-page2/adapive-img/portfolio-adaptive-3.png)!important;
             }
 
             & .cards__img--4{
-                background-image: url(./img-page2/adapive-img/portfolio-adaptive-4.png)!important;
+                background-image: url(../img-page2/adapive-img/portfolio-adaptive-4.png)!important;
             }
 
             & .cards__img--5{
-                background-image: url(./img-page2/adapive-img/portfolio-adaptive-5.png)!important;
+                background-image: url(../img-page2/adapive-img/portfolio-adaptive-5.png)!important;
             }
 
             & .cards__img--6{
-                background-image: url(./img-page2/adapive-img/portfolio-adaptive-6.png)!important;
+                background-image: url(../img-page2/adapive-img/portfolio-adaptive-6.png)!important;
             }
 
             & .cards__img--7{
-                background-image: url(./img-page2/adapive-img/portfolio-adaptive-7.png)!important;
+                background-image: url(../img-page2/adapive-img/portfolio-adaptive-7.png)!important;
             }
 
             & .cards__img--8{
-                background-image: url(./img-page2/adapive-img/portfolio-adaptive-8.png)!important;
+                background-image: url(../img-page2/adapive-img/portfolio-adaptive-8.png)!important;
             }
 
             & .cards__img--9{
-                background-image: url(./img-page2/adapive-img/portfolio-adaptive-9.png)!important;
+                background-image: url(../img-page2/adapive-img/portfolio-adaptive-9.png)!important;
             }
+        }
+    }
+    footer{
+        & .footer__container{
+            display: flex;
+            flex-direction: column;
+            max-width: 450px;
+        }
+        & .footer__container--1and2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            
+        }
+        & .footer__container--second{
+            padding-top: 60px;
         }
     }
 }
@@ -100,5 +191,11 @@
         padding-top: 60px;
 
     }
-
+    
 }
+
+
+
+    
+
+

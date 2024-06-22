@@ -65,6 +65,80 @@ table {
   .header__container--social .header__container--social--content .header__social--gmail {
     margin-right: 0 !important;
   }
+  .footer {
+    background-color: #2F303A;
+    margin-top: 100px;
+  }
+  .footer .footer__container {
+    max-width: 603px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer__adress {
+    font-family: Roboto;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  .footer .footer__gmail {
+    font-family: Roboto;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+  }
+  .footer .footer__container--1and2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .footer .footer__phone {
+    font-family: Roboto;
+    text-decoration: none;
+    color: gray;
+  }
+  .footer .footer__container--second--title {
+    font-family: Roboto;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__container--therd--title {
+    font-family: Roboto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .footer .footer__container--therd--input {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .footer ::-moz-placeholder {
+    font-family: Roboto;
+    padding: 20px;
+  }
+  .footer ::placeholder {
+    font-family: Roboto;
+    padding: 20px;
+  }
+  .footer .footer__container--therd--button {
+    margin-top: 20px;
+  }
+  .footer .footer__container--therd {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+  }
+  .footer .footer__container--therd--content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 @media (max-width: 725px) {
   .header__container--links {
@@ -84,31 +158,45 @@ table {
     max-width: 450px !important;
   }
   .cards .cards__container .cards__img--1 {
-    background-image: url(./img-page2/adapive-img/portfolio-adaptive-1.png) !important;
+    background-image: url(../img-page2/adapive-img/portfolio-adaptive-1.png) !important;
   }
   .cards .cards__container .cards__img--2 {
-    background-image: url(./img-page2/adapive-img/portfolio-adaptive-2.png) !important;
+    background-image: url(../img-page2/adapive-img/portfolio-adaptive-2.png) !important;
   }
   .cards .cards__container .cards__img--3 {
-    background-image: url(./img-page2/adapive-img/portfolio-adaptive-3.png) !important;
+    background-image: url(../img-page2/adapive-img/portfolio-adaptive-3.png) !important;
   }
   .cards .cards__container .cards__img--4 {
-    background-image: url(./img-page2/adapive-img/portfolio-adaptive-4.png) !important;
+    background-image: url(../img-page2/adapive-img/portfolio-adaptive-4.png) !important;
   }
   .cards .cards__container .cards__img--5 {
-    background-image: url(./img-page2/adapive-img/portfolio-adaptive-5.png) !important;
+    background-image: url(../img-page2/adapive-img/portfolio-adaptive-5.png) !important;
   }
   .cards .cards__container .cards__img--6 {
-    background-image: url(./img-page2/adapive-img/portfolio-adaptive-6.png) !important;
+    background-image: url(../img-page2/adapive-img/portfolio-adaptive-6.png) !important;
   }
   .cards .cards__container .cards__img--7 {
-    background-image: url(./img-page2/adapive-img/portfolio-adaptive-7.png) !important;
+    background-image: url(../img-page2/adapive-img/portfolio-adaptive-7.png) !important;
   }
   .cards .cards__container .cards__img--8 {
-    background-image: url(./img-page2/adapive-img/portfolio-adaptive-8.png) !important;
+    background-image: url(../img-page2/adapive-img/portfolio-adaptive-8.png) !important;
   }
   .cards .cards__container .cards__img--9 {
-    background-image: url(./img-page2/adapive-img/portfolio-adaptive-9.png) !important;
+    background-image: url(../img-page2/adapive-img/portfolio-adaptive-9.png) !important;
+  }
+  footer .footer__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+  }
+  footer .footer__container--1and2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  footer .footer__container--second {
+    padding-top: 60px;
   }
 }
 @media (max-width: 580px) {
@@ -540,48 +628,54 @@ header .header__container .header__container--social .header__container--social-
   color: #757575;
 }
 
-footer {
+.footer {
   background-color: #2F303A;
   margin-top: 100px;
 }
-footer .footer__container {
+.footer .footer__container {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-footer .footer__logo {
+.footer .footer__container--1and2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 507px;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer .footer__logo {
   margin-bottom: 20px;
 }
-footer .footer__adress {
+.footer .footer__adress {
   font-family: Roboto;
   text-decoration: none;
   color: white;
 }
-footer .footer__gmail {
+.footer .footer__gmail {
   font-family: Roboto;
   text-decoration: none;
   color: gray;
 }
-footer .footer__phone {
+.footer .footer__phone {
   font-family: Roboto;
   text-decoration: none;
   color: gray;
 }
-footer .footer__container--second--title {
+.footer .footer__container--second--title {
   font-family: Roboto;
   color: white;
   margin-bottom: 20px;
 }
-footer .footer__container--therd--title {
+.footer .footer__container--therd--title {
   font-family: Roboto;
   color: white;
 }
-footer .footer__container--therd--input {
+.footer .footer__container--therd--input {
   width: 358px;
   height: 50px;
   border-radius: 4px;
@@ -590,15 +684,15 @@ footer .footer__container--therd--input {
   margin-top: 20px;
   margin-right: 5px;
 }
-footer ::-moz-placeholder {
+.footer ::-moz-placeholder {
   font-family: Roboto;
   padding: 20px;
 }
-footer ::placeholder {
+.footer ::placeholder {
   font-family: Roboto;
   padding: 20px;
 }
-footer .footer__container--therd--button {
+.footer .footer__container--therd--button {
   background-color: #2196F3;
   font-family: Roboto;
   color: white;
