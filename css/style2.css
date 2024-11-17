@@ -327,11 +327,10 @@ header .header__container .header__container--social .header__container--social-
 
 .cards {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1100px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   margin-top: 32px;
   margin-bottom: 94px;
   gap: 32px;
